@@ -1,0 +1,58 @@
+.food-item{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   box-shadow: 0 0 4px rgba(0,0,0,0.3);
+   cursor: pointer;
+   background-color: #C7C8CC;
+}
+
+.item-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.item-info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.name{
+    font-size: max(1.3vw,18px);
+    color: tomato;
+    letter-spacing: 1.3px;
+}
+
+.price{
+    font-size: max(1.4vw, 20px);
+    color: #050C9C;
+    font-weight: 600;
+}
+
+.des{
+    font-size: max(1.3vw, 17px);
+    line-height: 1.5;
+}
+
+.count-container{
+    padding: 0 20px;
+}
+
+.add-up{
+    width: 40px;
+}
+
+.count{
+    font-size: max(1.3vw,20px);
+    color: #000000;
+}
+
+.count-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

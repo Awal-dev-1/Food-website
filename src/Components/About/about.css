@@ -1,0 +1,40 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    padding: 12rem 4rem;
+    background-color: aliceblue;
+}
+
+.about-head{
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: max(3vw,25px);
+    letter-spacing: 1.3px;
+    color: tomato;
+    position: relative;
+}
+
+.about-head::after{
+    content: "";
+    position: absolute;
+    /* background-color: blue;
+    width: 200px;
+    height: 2px; */
+    border-bottom: 4px solid blue;
+    width: 100%;
+    margin-top: 2px;
+    display: block;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.about-text{
+    color: tomato;
+    font-size: max(1.3vw,18px);
+    font-weight: 600;
+}
+
+.about-container p{
+    line-height: 30px;
+    font-size: max(1.2vw,18px);
+}
